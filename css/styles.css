@@ -1,0 +1,147 @@
+/************************************* TAG SELECTORS *******************************************************/
+
+body {
+    background-color: #FFFCEF;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+div {
+    background-color: #D2EBCD;
+    margin: 0px;
+    
+}
+
+h1 {
+    margin: 50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+    color: #393939;
+    line-height: 2em;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #393939;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FF7F5B;
+}
+
+a {
+    color: #393939;
+    margin: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D2EBCD;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border-top: 10px;
+    border-bottom: 0px;
+    border-style: dotted;
+    width: 25%;
+    margin: 100px auto 100px auto;
+}
+
+
+/************************************* CLASS SELECTORS *****************************************************/
+
+.top-container {
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container {
+    padding-bottom: 50px;
+}
+.bottom-container {
+   background-color: #FF7F5B;
+   color: #393939;
+   padding: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.top-cloud {
+    position: relative;
+    left: 200px;
+
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.html {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.c {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.intro {
+    width: 500px;
+    margin-left: 415px;
+}
+
+.copyright {
+    color: #D2EBCD;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+
+/*************************************** ID SELECTORS ****************************************************/
+
+#mypic {
+    margin-top: 100px;
+}
